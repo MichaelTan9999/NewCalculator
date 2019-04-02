@@ -215,6 +215,8 @@ void initTest()
 {
     idx = 1;
     err = 0;
+    sym = 0;
+    word.clear();
     return;
 }
 // This is the part that needs running every run!
@@ -237,13 +239,16 @@ string proc(string expr)
         {
             try
             {
+                cout<<"The expr \'"<<expr<<"\' is going to getInfo()"<<endl;
                 double tmp = getInfo(expr);
                 if (isinf(tmp) || isnan(tmp)) {
                     cout<<"Error No.2 with something about isinf() or isnan()"<<endl;
                     return "Wrong Expression.";
                 }
                 else {
+                    expr = "";
                     return to_string(tmp);
+                    //the correct answer here
                 }
             }
             catch (exception e)

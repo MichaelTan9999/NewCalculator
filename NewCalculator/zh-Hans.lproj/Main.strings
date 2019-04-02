@@ -1,0 +1,84 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "0RO-Xw-BXm"; */
+"0RO-Xw-BXm.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "SmartCalculator"; ObjectID = "4kD-NL-MDV"; */
+"4kD-NL-MDV.text" = "智能计算器";
+
+/* Class = "UIButton"; normalTitle = "*"; ObjectID = "7Bq-EE-ZuK"; */
+"7Bq-EE-ZuK.normalTitle" = "*";
+
+/* Class = "UIButton"; normalTitle = ")"; ObjectID = "7dD-4f-clj"; */
+"7dD-4f-clj.normalTitle" = ")";
+
+/* Class = "UIButton"; normalTitle = "C"; ObjectID = "Hit-Mp-JjO"; */
+"Hit-Mp-JjO.normalTitle" = "C";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "IgT-xq-qDD"; */
+"IgT-xq-qDD.normalTitle" = "4";
+
+/* Class = "UIButton"; normalTitle = "."; ObjectID = "JWG-mt-DN0"; */
+"JWG-mt-DN0.normalTitle" = ".";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "N7h-0L-gPe"; */
+"N7h-0L-gPe.normalTitle" = "+";
+
+/* Class = "UILabel"; text = "Instructor: Yue Feng Developers: Leslie Shang, LJIJ CJ, Michael Tan, Mardan School of Information and Software Engineering, University of Electronic Science and Technology of China The icons are provided by Icon8.com through Creative Commons Attribution-NoDerivs 3.0 Unported."; ObjectID = "ROK-CL-RbZ"; */
+"ROK-CL-RbZ.text" = "指导老师: 冯月 开发者: 尚志刚，赖成杰，谭鸿瑞， 麦尔旦·麦麦提尼亚孜，谢金城 信息与软件工程学院， 电子科技大学 所有图标由Icons8通过\"知识共享署名 -  NoDerivs 3.0 Unported\"提供.";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "Sld-g0-BSc"; */
+"Sld-g0-BSc.normalTitle" = "8";
+
+/* Class = "UIButton"; normalTitle = "/"; ObjectID = "V0L-kW-Mue"; */
+"V0L-kW-Mue.normalTitle" = "/";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "VFO-V2-t8N"; */
+"VFO-V2-t8N.normalTitle" = "7";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "XAZ-zq-qpv"; */
+"XAZ-zq-qpv.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "XF3-ij-fHA"; */
+"XF3-ij-fHA.normalTitle" = "3";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "XZO-oN-8lC"; */
+"XZO-oN-8lC.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "c73-mk-xq5"; */
+"c73-mk-xq5.normalTitle" = "9";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "dE2-Fp-7Pm"; */
+"dE2-Fp-7Pm.normalTitle" = "1";
+
+/* Class = "UIButton"; normalTitle = "Acknowledgemens"; ObjectID = "hMC-Kz-sWb"; */
+"hMC-Kz-sWb.normalTitle" = "致谢";
+
+/* Class = "UIButton"; normalTitle = "="; ObjectID = "ihP-QX-Npf"; */
+"ihP-QX-Npf.normalTitle" = "=";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "j8N-Tp-f3B"; */
+"j8N-Tp-f3B.normalTitle" = "5";
+
+/* Class = "UINavigationItem"; title = "Acknowledgements"; ObjectID = "jHa-gR-EHO"; */
+"jHa-gR-EHO.title" = "致谢";
+
+/* Class = "UIButton"; normalTitle = "AC"; ObjectID = "l03-64-EYz"; */
+"l03-64-EYz.normalTitle" = "AC";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "rAG-b0-SnF"; */
+"rAG-b0-SnF.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "rkh-ya-bba"; */
+"rkh-ya-bba.normalTitle" = "-";
+
+/* Class = "UIButton"; normalTitle = "√"; ObjectID = "rso-jT-AO3"; */
+"rso-jT-AO3.normalTitle" = "√";
+
+/* Class = "UIButton"; normalTitle = "^"; ObjectID = "txG-cf-khw"; */
+"txG-cf-khw.normalTitle" = "^";
+
+/* Class = "UIButton"; normalTitle = "("; ObjectID = "uCU-qp-1xQ"; */
+"uCU-qp-1xQ.normalTitle" = "(";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "yIj-Y2-HKq"; */
+"yIj-Y2-HKq.normalTitle" = "6";

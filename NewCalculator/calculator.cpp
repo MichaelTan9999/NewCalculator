@@ -34,7 +34,17 @@ int getOp(char exp, int opType);//从字符串中获取运算符信息
 void getRes(char op);//计算 num1 op num2 的值，并存入num栈顶
 int getOpType(char op);//获取运算符优先级，2最高，0最低
 
+void init()
+{
+    nagNuFlag = 1;
+    squareFlag = 0;
+    
+    return;
+}
+
 double getInfo(string exp) {
+    init();
+    cout<<"The bottom expression in calculator.cpp is "<<exp<<endl;
     int length = 0;
     int opType = 0;
     
@@ -75,8 +85,9 @@ double getInfo(string exp) {
         getRes(op.top());
         op.pop();
     }
-    
-    return num.top();
+    int res = num.top();
+    num.pop();
+    return res;
 }
 //获取完整数字，并返回读取操作次数
 int getNum(string exp) {

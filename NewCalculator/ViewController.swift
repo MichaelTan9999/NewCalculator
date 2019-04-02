@@ -264,7 +264,22 @@ class ViewController: UIViewController {
         else
         {
             StorageBox.text = ExpressionBox.text
-            ExpressionBox.text = OC_model.judgement(ExpressionBox.text!)
+            
+            print("The expression given to judge.cpp is \(String(describing: ExpressionBox.text!))")
+            // This is to show the original expression hand on to judge.cpp
+            
+            let a: String = OC_model.judgement(ExpressionBox.text!)
+            print("The result in Swift is \(a)\n");
+            if (a != "Wrong Expression.")
+            {
+                let number = Double(a)
+                ExpressionBox.text = "\(number!)"
+            }
+            else
+            {
+                ExpressionBox.text = a
+            }
+            
 //            StorageBox.text = ExpressionBox.text
 //            ExpressionBox.text = ""
         }

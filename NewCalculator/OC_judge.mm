@@ -19,8 +19,9 @@ using namespace std;
     
     std::string a = expr.UTF8String;
     a = proc(a);
+    cout<<"The expression in Objective-C++ is "<<a<<endl;;
     expr=[NSString stringWithCString:a.c_str() encoding:[NSString defaultCStringEncoding]];
-    cout<<expr<<" Is this a problem?"<<endl;
+//    cout<<expr<<" Is this a problem?"<<endl;
     return expr;
 }
 
