@@ -85,7 +85,8 @@ double getInfo(string exp) {
         getRes(op.top());
         op.pop();
     }
-    int res = num.top();
+    double res = num.top();
+    cout<<"The value give to judge.cpp is "<<res<<endl;
     num.pop();
     return res;
 }
