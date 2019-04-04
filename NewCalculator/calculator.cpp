@@ -38,9 +38,9 @@ void init()
 {
     nagNuFlag = 1;
     squareFlag = 0;
-    
     return;
 }
+//mannual 
 
 double getInfo(string exp) {
     init();
@@ -87,6 +87,8 @@ double getInfo(string exp) {
     }
     double res = num.top();
     cout<<"The value give to judge.cpp is "<<res<<endl;
+    
+    
     num.pop();
     return res;
 }

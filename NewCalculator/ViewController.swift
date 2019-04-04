@@ -255,6 +255,22 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func ButtonBackspace(_ sender: Any) {
+        
+        if (ExpressionBox.text == "" || ExpressionBox.text == "Wrong Expression.")
+        {
+            ExpressionBox.text = ""
+        }
+        else if (ExpressionBox.text!.count < 5)
+        {
+            ExpressionBox.text?.removeLast();
+        }
+        else if (ExpressionBox.text?.suffix(5) == "Sqrt(")
+        {
+            ExpressionBox.text?.removeLast(5);
+        }
+    }
+    
     @IBAction func ButtonEqual(_ sender: Any) {
         
         if (ExpressionBox.text == "" || ExpressionBox.text == "Wrong Expression.")

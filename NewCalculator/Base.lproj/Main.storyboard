@@ -320,28 +320,15 @@
                                     <action selector="ButtonEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HQZ-zA-McP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l03-64-EYz">
-                                <rect key="frame" x="230" y="630" width="62" height="40"/>
-                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="IPa-QG-BDk"/>
-                                    <constraint firstAttribute="width" secondItem="l03-64-EYz" secondAttribute="height" multiplier="31:20" id="noX-TO-hmk"/>
-                                </constraints>
-                                <state key="normal" title="AC">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="ButtonAllClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWm-iM-qb5"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMC-Kz-sWb">
-                                <rect key="frame" x="20" y="630" width="202" height="40"/>
+                                <rect key="frame" x="20" y="630" width="132" height="40"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2RY-K1-YPo"/>
-                                    <constraint firstAttribute="width" secondItem="hMC-Kz-sWb" secondAttribute="height" multiplier="101:20" id="t5I-kT-dtE"/>
+                                    <constraint firstAttribute="width" secondItem="hMC-Kz-sWb" secondAttribute="height" multiplier="33:10" id="CBl-5u-Ov7"/>
                                 </constraints>
-                                <state key="normal" title="Acknowledgemens">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Acknowledgements">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -362,6 +349,35 @@
                                     <action selector="ButtonDot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yn7-Vw-UN7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehH-WV-SzN">
+                                <rect key="frame" x="160" y="630" width="62" height="40"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QMx-Cl-pGW"/>
+                                    <constraint firstAttribute="width" secondItem="ehH-WV-SzN" secondAttribute="height" multiplier="31:20" id="bRN-Ez-hvK"/>
+                                </constraints>
+                                <state key="normal" title="&lt;-">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonBackspace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Zy-MU-oxe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l03-64-EYz">
+                                <rect key="frame" x="230" y="630" width="62" height="40"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l03-64-EYz" secondAttribute="height" multiplier="31:20" id="BBo-HJ-VrE"/>
+                                    <constraint firstAttribute="height" constant="40" id="IPa-QG-BDk"/>
+                                    <constraint firstAttribute="width" secondItem="l03-64-EYz" secondAttribute="height" multiplier="31:20" id="noX-TO-hmk"/>
+                                </constraints>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonAllClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWm-iM-qb5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -375,8 +391,8 @@
                             <constraint firstItem="dE2-Fp-7Pm" firstAttribute="leading" secondItem="rAG-b0-SnF" secondAttribute="trailing" constant="8" id="68n-Z7-a8x"/>
                             <constraint firstItem="N7h-0L-gPe" firstAttribute="top" secondItem="rkh-ya-bba" secondAttribute="bottom" constant="8" id="6C2-c3-xNl"/>
                             <constraint firstItem="Tbm-FV-JQy" firstAttribute="leading" secondItem="XZO-oN-8lC" secondAttribute="leading" id="6qL-Om-kEP"/>
+                            <constraint firstItem="ehH-WV-SzN" firstAttribute="leading" secondItem="hMC-Kz-sWb" secondAttribute="trailing" constant="8" id="8RW-YK-ti1"/>
                             <constraint firstItem="N7h-0L-gPe" firstAttribute="top" secondItem="rkh-ya-bba" secondAttribute="bottom" constant="8" id="9DZ-7b-q5o"/>
-                            <constraint firstItem="txG-cf-khw" firstAttribute="top" secondItem="hMC-Kz-sWb" secondAttribute="bottom" constant="8" id="9UF-oY-KZ0"/>
                             <constraint firstItem="JWG-mt-DN0" firstAttribute="leading" secondItem="IgT-xq-qDD" secondAttribute="trailing" constant="8" id="9hR-hT-lyS"/>
                             <constraint firstItem="rAG-b0-SnF" firstAttribute="top" secondItem="j8N-Tp-f3B" secondAttribute="bottom" constant="8" id="Ay7-BX-Tr2"/>
                             <constraint firstItem="N7h-0L-gPe" firstAttribute="leading" secondItem="XAZ-zq-qpv" secondAttribute="trailing" constant="8" id="Bhl-8a-i49"/>
@@ -388,6 +404,7 @@
                             <constraint firstItem="Sld-g0-BSc" firstAttribute="top" secondItem="7dD-4f-clj" secondAttribute="bottom" constant="8" id="HwG-EO-1Wn"/>
                             <constraint firstItem="j8N-Tp-f3B" firstAttribute="top" secondItem="Sld-g0-BSc" secondAttribute="bottom" constant="8" id="Iro-XI-o0x"/>
                             <constraint firstItem="rAG-b0-SnF" firstAttribute="top" secondItem="j8N-Tp-f3B" secondAttribute="bottom" constant="8" id="JDZ-Vg-bSs"/>
+                            <constraint firstItem="l03-64-EYz" firstAttribute="leading" secondItem="ehH-WV-SzN" secondAttribute="trailing" constant="8" id="K86-1e-hh5"/>
                             <constraint firstItem="XF3-ij-fHA" firstAttribute="top" secondItem="yIj-Y2-HKq" secondAttribute="bottom" constant="8" id="Kh9-Kf-MZb"/>
                             <constraint firstItem="rkh-ya-bba" firstAttribute="leading" secondItem="JWG-mt-DN0" secondAttribute="trailing" constant="8" id="Kiq-mI-6p5"/>
                             <constraint firstItem="rso-jT-AO3" firstAttribute="leading" secondItem="txG-cf-khw" secondAttribute="trailing" constant="8" id="LHj-2H-5b9"/>
@@ -399,6 +416,8 @@
                             <constraint firstItem="7dD-4f-clj" firstAttribute="leading" secondItem="uCU-qp-1xQ" secondAttribute="trailing" constant="8" id="Qcf-ta-Oi2"/>
                             <constraint firstItem="IgT-xq-qDD" firstAttribute="leading" secondItem="j8N-Tp-f3B" secondAttribute="trailing" constant="8" id="TFE-Kn-bCF"/>
                             <constraint firstItem="dE2-Fp-7Pm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="UIz-in-WPm"/>
+                            <constraint firstItem="l03-64-EYz" firstAttribute="leading" secondItem="ehH-WV-SzN" secondAttribute="trailing" constant="8" id="UpP-QS-XW5"/>
+                            <constraint firstItem="txG-cf-khw" firstAttribute="top" secondItem="ehH-WV-SzN" secondAttribute="bottom" constant="8" id="VIU-DJ-ShF"/>
                             <constraint firstItem="VFO-V2-t8N" firstAttribute="leading" secondItem="Sld-g0-BSc" secondAttribute="trailing" constant="8" id="VtF-aN-fM3"/>
                             <constraint firstItem="V0L-kW-Mue" firstAttribute="top" secondItem="ihP-QX-Npf" secondAttribute="bottom" constant="8" id="WHx-hC-Z1m"/>
                             <constraint firstItem="4kD-NL-MDV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Wg5-0I-ArC"/>
@@ -422,6 +441,7 @@
                             <constraint firstItem="yIj-Y2-HKq" firstAttribute="top" secondItem="c73-mk-xq5" secondAttribute="bottom" constant="8" id="eYD-v5-aE5"/>
                             <constraint firstItem="uCU-qp-1xQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ebj-Wi-3FA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Bq-EE-ZuK" secondAttribute="trailing" constant="20" id="epu-7m-2VZ"/>
+                            <constraint firstItem="txG-cf-khw" firstAttribute="top" secondItem="ehH-WV-SzN" secondAttribute="bottom" constant="8" id="fRe-mb-Bne"/>
                             <constraint firstItem="txG-cf-khw" firstAttribute="leading" secondItem="7dD-4f-clj" secondAttribute="trailing" constant="8" id="flZ-e5-S5V"/>
                             <constraint firstItem="yIj-Y2-HKq" firstAttribute="top" secondItem="c73-mk-xq5" secondAttribute="bottom" constant="8" id="gnE-4U-i0c"/>
                             <constraint firstItem="XAZ-zq-qpv" firstAttribute="leading" secondItem="dE2-Fp-7Pm" secondAttribute="trailing" constant="8" id="h4a-5h-mUC"/>
@@ -449,7 +469,6 @@
                             <constraint firstItem="rso-jT-AO3" firstAttribute="leading" secondItem="txG-cf-khw" secondAttribute="trailing" constant="8" id="wHU-kO-uP4"/>
                             <constraint firstItem="Hit-Mp-JjO" firstAttribute="leading" secondItem="VFO-V2-t8N" secondAttribute="trailing" constant="8" id="xrc-lA-qlh"/>
                             <constraint firstItem="j8N-Tp-f3B" firstAttribute="leading" secondItem="yIj-Y2-HKq" secondAttribute="trailing" constant="8" id="yV2-qe-lP7"/>
-                            <constraint firstItem="l03-64-EYz" firstAttribute="leading" secondItem="hMC-Kz-sWb" secondAttribute="trailing" constant="8" id="yeE-Pl-ak3"/>
                             <constraint firstItem="rkh-ya-bba" firstAttribute="top" secondItem="7Bq-EE-ZuK" secondAttribute="bottom" constant="8" id="yyH-Ga-z3K"/>
                             <constraint firstItem="XF3-ij-fHA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zEM-G4-2pB"/>
                         </constraints>
@@ -462,7 +481,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.875" y="137.5"/>
+            <point key="canvasLocation" x="136.23188405797103" y="137.27678571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mke-De-grN">
@@ -494,7 +513,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="247" id="g8x-kH-Wv9"/>
                                 </constraints>
-                                <mutableString key="text">Instructor: Yue Feng Developers: Leslie Shang, LJIJ CJ, Michael Tan, Mardan, wokindom School of Information and Software Engineering, University of Electronic Science and Technology of China The icons are provided by Icon8.com through Creative Commons Attribution-NoDerivs 3.0 Unported.</mutableString>
+                                <string key="text">Instructor: Yue Feng Developers: Leslie Shang, LJIJ CJ, Michael Tan, Mardan, wokindom School of Information and Software Engineering, University of Electronic Science and Technology of China The icons are provided by Icon8.com through Creative Commons Attribution-NoDerivs 3.0 Unported.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>

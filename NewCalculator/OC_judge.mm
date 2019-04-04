@@ -16,7 +16,6 @@ using namespace std;
 
 +(NSString*) judgement: (NSString*) expr
 {
-    
     std::string a = expr.UTF8String;
     a = proc(a);
     cout<<"The expression in Objective-C++ is "<<a<<endl;;
