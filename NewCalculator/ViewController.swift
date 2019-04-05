@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
     @IBAction func ButtonZero(_ sender: Any) {
@@ -268,6 +269,10 @@ class ViewController: UIViewController {
         else if (ExpressionBox.text?.suffix(5) == "Sqrt(")
         {
             ExpressionBox.text?.removeLast(5);
+        }
+        else
+        {
+            ExpressionBox.text?.removeLast();
         }
     }
     
