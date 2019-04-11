@@ -24,10 +24,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""// Already an error message.
         }
-        else
-        {
-            ExpressionBox.text! += "0"
-        }
+        
+        ExpressionBox.text! += "0"
+        
     }
     
     @IBAction func ButtonOne(_ sender: Any) {
@@ -36,10 +35,8 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "1"
-        }
+        
+        ExpressionBox.text! += "1"
     }
     
     @IBAction func ButtonTwo(_ sender: Any) {
@@ -48,10 +45,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "2"
-        }
+        
+        ExpressionBox.text! += "2"
+        
     }
     
     @IBAction func ButtonThree(_ sender: Any) {
@@ -60,10 +56,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "3"
-        }
+        
+        ExpressionBox.text! += "3"
+        
     }
     
     @IBAction func ButtonFour(_ sender: Any) {
@@ -72,10 +67,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "4"
-        }
+        
+        ExpressionBox.text! += "4"
+        
     }
     
     @IBAction func ButtonFive(_ sender: Any) {
@@ -84,10 +78,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "5"
-        }
+        
+        ExpressionBox.text! += "5"
+        
     }
     
     @IBAction func ButtonSix(_ sender: Any) {
@@ -96,10 +89,8 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "6"
-        }
+        
+        ExpressionBox.text! += "6"
     }
     
     @IBAction func ButtonSeven(_ sender: Any) {
@@ -108,10 +99,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "7"
-        }
+        
+        ExpressionBox.text! += "7"
+        
     }
     
     @IBAction func ButtonEight(_ sender: Any) {
@@ -120,10 +110,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "8"
-        }
+        
+        ExpressionBox.text! += "8"
+        
     }
     
     @IBAction func ButtonNine(_ sender: Any) {
@@ -132,10 +121,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "9"
-        }
+        
+        ExpressionBox.text! += "9"
+        
     }
     
     @IBAction func ButtonDot(_ sender: Any) {
@@ -144,10 +132,8 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "."
-        }
+
+        ExpressionBox.text! += "."
         
     }
     
@@ -166,10 +152,8 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "("
-        }
+        
+        ExpressionBox.text! += "("
     }
     
     @IBAction func ButtonBracketRight(_ sender: Any) {
@@ -178,10 +162,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += ")"
-        }
+        
+        ExpressionBox.text! += ")"
+        
     }
     
     @IBAction func ButtonPower(_ sender: Any) {
@@ -190,10 +173,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "^"
-        }
+        
+        ExpressionBox.text! += "^"
+        
     }
     
     @IBAction func ButtonSquare(_ sender: Any) {
@@ -202,10 +184,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "Sqrt("
-        }
+        
+        ExpressionBox.text! += "Sqrt("
+        
     }
     
     @IBAction func ButtonPlus(_ sender: Any) {
@@ -214,10 +195,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "+"
-        }
+        
+        ExpressionBox.text! += "+"
+        
     }
     
     @IBAction func ButtonMinor(_ sender: Any) {
@@ -226,10 +206,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "-"
-        }
+        
+        ExpressionBox.text! += "-"
+        
     }
     
     @IBAction func ButtonMutiple(_ sender: Any) {
@@ -238,10 +217,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "*"
-        }
+        
+        ExpressionBox.text! += "*"
+        
     }
     
     @IBAction func ButtonDivide(_ sender: Any) {
@@ -250,10 +228,9 @@ class ViewController: UIViewController {
         {
             ExpressionBox.text = ""
         }
-        else
-        {
-            ExpressionBox.text! += "/"
-        }
+        
+        ExpressionBox.text! += "/"
+        
     }
     
     @IBAction func ButtonBackspace(_ sender: Any) {
@@ -301,14 +278,7 @@ class ViewController: UIViewController {
                 ExpressionBox.text = a
             }
             
-//            StorageBox.text = ExpressionBox.text
-//            ExpressionBox.text = ""
         }
-        /*
-        let test = OC_model.judgement(ExpressionBox.text!)
-        print(test!)
-        print("123\0123")
- */
     }
 }
 
