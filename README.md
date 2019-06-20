@@ -1,5 +1,7 @@
 # NewCalculator
 iOS based calculator  
+Comprehensive Course Project 2, *School of Information and Software Engineering of University of Electronic Science and Technology of China*   
+电子科技大学信息与软件工程学院综合设计2  
 设计模式：MVC  
 集成开发环境：Xcode  
 模型：iOS - Single View App  
